@@ -1,0 +1,52 @@
+\contentsline {chapter}{\numberline {1}Research in Computer Science and Engineering}{2}{chapter.1}
+\contentsline {paragraph}{In Computer Science and Engineering research is the starting step of inventing new revolution.No big job comes without research.But at the time of research one should follow some rules.Otherwise research may be lengthy or may not bring any good result. \\Steps to follow:}{2}{section*.2}
+\contentsline {chapter}{\numberline {2}Writing a Paper}{4}{chapter.2}
+\contentsline {paragraph}{After research it is very important to write a good research paper.Howover writing a good research paper is not so easy.One should follow some important terms when writing a research paper.It includes various terms.These are illustrated below.}{4}{section*.4}
+\contentsline {section}{\numberline {2.1}Organization of a Research Paper}{4}{section.2.1}
+\contentsline {paragraph}{It is the whole image of a good research paper.It includes all the terms that are strongly needed to write a good research paper.\\Here are the terms: }{4}{section*.5}
+\contentsline {section}{\numberline {2.2}Title of a Paper}{5}{section.2.2}
+\contentsline {paragraph}{It must contain the following terms: }{5}{section*.6}
+\contentsline {section}{\numberline {2.3}Authors Name}{5}{section.2.3}
+\contentsline {section}{\numberline {2.4}Affiliation}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Abstract}{5}{section.2.5}
+\contentsline {paragraph}{ Write the full paper in a concise form (at most ten lines.) It should contain}{5}{section*.7}
+\contentsline {section}{\numberline {2.6}Key Words}{6}{section.2.6}
+\contentsline {paragraph}{The key words are provided so that}{6}{section*.8}
+\contentsline {section}{\numberline {2.7}Introduction}{6}{section.2.7}
+\contentsline {paragraph}{ Write the full paper in 2-3 pages. Most difficult part of a paper. This is the first section of a paper but the last section to complete.}{6}{section*.9}
+\contentsline {section}{\numberline {2.8}Organization of your paper}{7}{section.2.8}
+\contentsline {paragraph}{It is provided so that}{7}{section*.10}
+\contentsline {section}{\numberline {2.9}Preliminaries}{7}{section.2.9}
+\contentsline {paragraph}{To make the paper self-contained}{7}{section*.11}
+\contentsline {section}{\numberline {2.10}Main Results}{7}{section.2.10}
+\contentsline {paragraph}{It is very important to organize a good research paper.The research paper should be written in a way so that one can easily understand when writing it and doesn't get bored.\\To make a paper good looking and attracting :}{7}{section*.12}
+\contentsline {section}{\numberline {2.11}Conclusions}{8}{section.2.11}
+\contentsline {paragraph}{It is an important part of writing a good research paper.In this section one should not elaborate his/her whole research paper rather should give a brief description about his/her research.\\To make it standard follow :}{8}{section*.13}
+\contentsline {section}{\numberline {2.12}Acknowledgement}{8}{section.2.12}
+\contentsline {paragraph}{It is also a very important part.When you start to write a paper you may need information from other sources.\\So,}{8}{section*.14}
+\contentsline {section}{\numberline {2.13}Bibliographic References}{8}{section.2.13}
+\contentsline {paragraph}{At the time of writing a paragraph you should mention the references or bibliographies from those you have taken help.\\For these the following rules should be followed.}{8}{section*.15}
+\contentsline {section}{\numberline {2.14}Appendix}{9}{section.2.14}
+\contentsline {paragraph}{It is a part which may bring whole of your paper within a glance.}{9}{section*.16}
+\contentsline {section}{\numberline {2.15}What To Do Once The Paper Is Written?}{9}{section.2.15}
+\contentsline {paragraph}{After writing a research paper you should revise this many times.Then you can submit it in a good journal or conference.But You must follow the rules of those journals/conferences at where you submit it.This process may be sometimes lengthy.You should follow the following rules until your research paper is not accepted by a good jounal.}{9}{section*.17}
+\contentsline {chapter}{\numberline {3}Writing a Thesis}{10}{chapter.3}
+\contentsline {paragraph}{Writing a thesis paper is almost the same process of writing a rsearch paper.It includes Title page,table of contents,abstract list of figures etc.abstract should be one page. }{10}{section*.18}
+\contentsline {section}{\numberline {3.1}Thesis Organization}{10}{section.3.1}
+\contentsline {paragraph}{This contains the terms of writing a thesis paper.\\They are :}{10}{section*.19}
+\contentsline {chapter}{\numberline {4}Writing Tools}{12}{chapter.4}
+\contentsline {paragraph}{There are several writing tools for writing your research paper.You may use these tools when you write the research paper.It will make easy for you to write these and will give a good shape of your research paper.}{12}{section*.20}
+\contentsline {paragraph}{ LaTex templates for submission to journals are available in journal web pages.\\ You can also find LaTex thesis templates in Internet.}{12}{section*.21}
+\contentsline {chapter}{\numberline {5}Plagiarism}{13}{chapter.5}
+\contentsline {paragraph}{When writing a research paper it is a great shy stealing ideas from others or copying other sources.It will make your research paper the worst one.You may loose honourity.This is strongly prohibited when writing a research paper.}{13}{section*.22}
+\contentsline {section}{\numberline {5.1}What is Plagiarism}{13}{section.5.1}
+\contentsline {paragraph}{Here are the things :}{13}{section*.23}
+\contentsline {chapter}{\numberline {6}Review Report and Revision Report}{14}{chapter.6}
+\contentsline {section}{\numberline {6.1}Review Report}{14}{section.6.1}
+\contentsline {paragraph}{ Writing a review report is a professional duty. Usually it a voluntary work. A review report should contain}{14}{section*.24}
+\contentsline {section}{\numberline {6.2}Revision Report}{14}{section.6.2}
+\contentsline {paragraph}{ A revision report should contain}{14}{section*.25}
+\contentsline {chapter}{\numberline {7}Concluding Remarks}{15}{chapter.7}
+\contentsline {paragraph}{You should always remember that publishing a good research paper is far better than publishing hundreds of poor papers.You should write quality research paper.\\You should follow: }{15}{section*.26}
+\contentsline {chapter}{\numberline {8}Acknowledgement}{16}{chapter.8}
+\contentsline {paragraph}{At last you should mention the sources you have used to fulfill your research paper.It is a very important part of research paper.You should follow like below :}{16}{section*.27}

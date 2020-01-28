@@ -1,0 +1,10 @@
+dhor p=7
+taile k koto ase?3 na?
+amra kivabe loop chalaisi?k=3 to 1,evabe na?
+ekhn dhor jokhn k=3, tokhn loop e dhuklo. taile count 1 barbe
+etate kono point er jnnoi min=0 hoy nai, so se ki k=2 te dhukbe na?etate dhukar por count aro 1 barbe
+ekhn jodi k=2 tei min 0 hoy,taile ekta frame er jnno count 2
+noile count aro barbe
+emne sob frame er jnno hisab kore avg korbi
+r hiererical er jnno level 2 te eita dekhbi
+Chat Conversation End

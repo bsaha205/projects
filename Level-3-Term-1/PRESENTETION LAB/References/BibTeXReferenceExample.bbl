@@ -1,0 +1,14 @@
+\begin{thebibliography}{1}
+
+\bibitem{akyildiz2008survey}
+Ian~F Akyildiz, Won-Yeol Lee, Mehmet~C Vuran, and Shantidev Mohanty.
+\newblock A survey on spectrum management in cognitive radio networks.
+\newblock {\em Communications Magazine, IEEE}, 46(4):40--48, 2008.
+
+\bibitem{wang10infocom}
+Shanshan Wang, Junshan Zhang, and Lang Tong.
+\newblock Delay analysis for cognitive radio networks with random access: A
+  fluid queue view.
+\newblock In {\em Proc. IEEE INFOCOM'10}, pages 1--9, 2010.
+
+\end{thebibliography}

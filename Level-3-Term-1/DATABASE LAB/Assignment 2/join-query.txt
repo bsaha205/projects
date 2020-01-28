@@ -1,0 +1,54 @@
+drop table R1; drop table R2;
+create table R1
+(
+a_id number,
+b_id number,
+c_id number
+);
+
+create table R2
+(
+a_id number,
+d_id number,
+e_id number
+);
+
+insert into R1 values(3,2,1);
+insert into R1 values(5,3,2);
+insert into R1 values(7,5,3);
+
+insert into R2 values(3,3,5);
+insert into R2 values(7,5,6);
+insert into R2 values(3,5,7);
+
+--- Natural Join ---
+select * from 
+R1 natural join R2;
+
+--- Inner Join with Using ---
+
+select * from 
+R1 join R2 using(a_id);
+
+--- Inner Join with ON ---
+select * from 
+R1 join R2 on (R1.a_id=R2.a_id);
+
+select * from 
+R1 join R2 on(R1.b_id=R2.d_id);
+
+--- Outer Join with ON ---
+
+select * from 
+R1 left outer join R2 on (R1.a_id=R2.a_id);
+
+select * from 
+R1 right outer join R2 on (R1.a_id=R2.a_id and R1.b_id = R2.d_id);
+
+select * from 
+R1 full outer join R2 on (R1.a_id=R2.a_id);
+
+--- Outer Join with Using ---
+
+select * from 
+R1 left outer join R2 using (a_id);

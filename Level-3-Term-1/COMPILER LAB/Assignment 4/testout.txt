@@ -1,0 +1,13 @@
+Create global table, push tblptr and offset, etc.
+
+Create local table for procedure, push tblptr and offset, etc.
+
+Enter id to the last table
+Increment offset according to width, etc
+
+Enter id to the last table
+Increment offset according to width, etc
+
+Enter PROC info into global, pop, etc.
+
+

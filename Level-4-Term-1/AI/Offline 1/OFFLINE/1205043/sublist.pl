@@ -1,0 +1,5 @@
+sublist(X,S,F,Y):-testsublist(X,1,S,F,Y).
+testsublist([],_,_,_,[]).
+testsublist([H|T],P,S,F,Y):- P < S,P1 is P+1,testsublist(T,P1,S,F,Y).
+testsublist([H|T],P,S,F,[H|Y]):- P >= S , P =< F,P1 is P+1,testsublist(T,P1,S,F,Y).
+testsublist([H|T],P,S,F,Y):- P > F,P1 is P+1,testsublist(T,P1,S,F,Y).

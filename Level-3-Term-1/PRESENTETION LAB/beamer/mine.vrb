@@ -1,0 +1,30 @@
+\frametitle{Working Strategy}
+  \begin{columns}
+		\begin{column}{0.5\textwidth}
+		\centering
+			\begin{itemize}
+		\pause\item Set up an array of initially empty "buckets"
+		\pause\item \textbf{Scatter:} Go over the original array, putting each object in its bucket.
+		\pause\item Sort each non-empty bucket.
+		\pause\item \textbf{Gather:} Visit the buckets in order and put all elements back into the original array.
+
+	\end{itemize}
+		\end{column}
+		\centering
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=0.5\columnwidth]{Bucket_sort_1.png}\\
+			\includegraphics[width=0.5\columnwidth]{Bucket_sort_2.png}
+		\end{column}
+	\end{columns}
+	}
+
+  \iffalse
+	\begin{itemize}
+		\item At first we will see this,\\
+		\onslide<1-2>{pause\\onslide\\only\iffalse\verb|\pause|\\
+			\verb|\onslide|\\
+			\verb|\only|\fi}
+		\item and this.\\
+		\onslide<3>{overlay shorthand commands}
+	\end{itemize}
+	\fi

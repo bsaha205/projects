@@ -1,0 +1,9 @@
+\contentsline {chapter}{\numberline {1}Technical Writing and Presentation}{2}{chapter.1}
+\contentsline {paragraph}{}{2}{section*.2}
+\contentsline {chapter}{\numberline {2}Issues of Technical Writing}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Why do we need writing?}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Who is Your Audience?}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Aspects of Technical Writing}{4}{section.2.3}
+\contentsline {paragraph}{As a valued customer of XYZ company, your call is very important to us.}{4}{section*.3}
+\contentsline {chapter}{\numberline {3}First Appendix}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Last Note}{6}{chapter.4}

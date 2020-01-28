@@ -1,0 +1,45 @@
+\contentsline {chapter}{\numberline {1}Research in Computer Science and Engineering}{2}{chapter.1}
+\contentsline {paragraph}{Steps to follow:}{2}{section*.2}
+\contentsline {chapter}{\numberline {2}Issues of Technical Writing}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Why do we need writing?}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Who is Your Audience?}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Aspects of Technical Writing}{4}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}}{4}{subsection.2.3.1}
+\contentsline {paragraph}{As a valued customer of XYZ company, your call is very important to us.}{4}{section*.3}
+\contentsline {subsection}{\numberline {2.3.2}}{4}{subsection.2.3.2}
+\contentsline {paragraph}{The conjecture of Gause (1930) is false.}{4}{section*.4}
+\contentsline {paragraph}{The lemmas of Euler (1766) and the example of Abel (1827) led Gause to conjecture that all semistable curves are modular. The conjecture was widely beleived, and more than fifty papers were written by Jacobi, Dirichlet, and Galios in support of it. To everyones’s surprise and dismay, a counter example was produced by Frobenius in 1902. This counterexample opened many doors.}{4}{section*.5}
+\contentsline {paragraph}{}{4}{section*.6}
+\contentsline {subsection}{\numberline {2.3.3}}{4}{subsection.2.3.3}
+\contentsline {paragraph}{Let X be a compact metric subspace of the space Y. If f is continuous, R-valued function on the space then it assumes both a maximum and a minimum value.}{4}{section*.7}
+\contentsline {subsection}{\numberline {2.3.4}}{5}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}}{5}{subsection.2.3.5}
+\contentsline {paragraph}{All continuous functions have a maximum.}{5}{section*.8}
+\contentsline {chapter}{\numberline {3}General Guidelines for Technical Writing}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Rules and Practices of Writing}{6}{section.3.1}
+\contentsline {paragraph}{}{6}{section*.9}
+\contentsline {paragraph}{}{7}{section*.10}
+\contentsline {section}{\numberline {3.2}Important Points for Mathematical Writing}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Separating symbols in formulas:}{7}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Not starting sentence with a symbol:}{7}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Not using symbols $ \forall , \exists ,\in : $}{8}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Defining symbols before use: }{8}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Not using quotations in mathematics papers frequently:}{8}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Placing punctuation marks rightly:}{8}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Completing Sentence rightly:}{8}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Being self-contained: }{8}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Fact, Lemma, Theorem, Corollary:}{8}{subsection.3.2.9}
+\contentsline {paragraph}{}{8}{section*.11}
+\contentsline {paragraph}{}{8}{section*.12}
+\contentsline {paragraph}{}{9}{section*.13}
+\contentsline {paragraph}{}{9}{section*.14}
+\contentsline {subsection}{\numberline {3.2.10}Capitalizing names of theorems,lemmas..:}{9}{subsection.3.2.10}
+\contentsline {paragraph}{}{9}{section*.15}
+\contentsline {paragraph}{}{9}{section*.16}
+\contentsline {paragraph}{}{9}{section*.17}
+\contentsline {subsection}{\numberline {3.2.11}Spelling numbers or not: }{9}{subsection.3.2.11}
+\contentsline {paragraph}{}{9}{section*.18}
+\contentsline {paragraph}{}{10}{section*.19}
+\contentsline {subsection}{\numberline {3.2.12}Displaying important formulas:}{10}{subsection.3.2.12}
+\contentsline {section}{\numberline {3.3}Some more points...}{10}{section.3.3}
+\contentsline {chapter}{\numberline {4}Acknowledgement}{11}{chapter.4}

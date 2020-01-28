@@ -1,0 +1,94 @@
+%# %~!@#$%^&*()
+\documentclass{beamer}
+\usepackage{xcolor, listings, verbatim, hyperref}
+\lstset{%
+  basicstyle=\small\ttfamily,
+  language=[LaTeX]{TeX},
+  backgroundcolor=\color{white},
+   % numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+    showstringspaces=false,
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    pos=l
+}
+\begin{document}
+\begin{frame}
+\frametitle{Bibliography Management in \LaTeX}
+\begin{itemize}
+    \item Bibliographies/References are important for technical writing.
+    \item \LaTeX\ provides various features to incorporate references in a document.
+    \begin{itemize}
+        \item built-in \textcolor{green!50!black}{\texttt{thebibliography}} environment.
+        \item \textcolor{red}{\texttt{BibTeX}}, the database of references
+    \end{itemize}
+\end{itemize}
+\end{frame}
+\begin{frame}[]
+\frametitle{Embedded \textcolor{green!50!black}{\texttt{thebibliography}} Environment}
+\begin{lstlisting}
+\begin{thebibliography}{5}
+\bibitem{akyildiz2008survey}
+Ian F Akyildiz and Won-Yeol Lee and Mehmet C Vuran
+and Shantidev Mohanty.
+\textit{A survey on spectrum management in cognitive
+radio networks},
+IEEE Communication Magazine, vol. 46, 2008.
+\end{thebibliography}
+\end{lstlisting}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{How to Cite?}
+\begin{itemize}
+    \item \verb|\cite{cite_key}|
+    \item \verb|\cite[p.~215]{cite_key}|
+    \item \verb|\cite{citation01,citation02,citation03}|
+    \item \verb|\nocite{cite_key}|
+    \item run \texttt{latex filename} or, \texttt{pdflatex filename} twice to get the proper reference citations.
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Working with BibTeX}
+\framesubtitle{in .bib file}
+\begin{lstlisting}
+@article{akyildiz2008survey,
+  title="A survey on spectrum management in
+  cognitive radio networks",
+  author="Akyildiz, Ian F and Lee, Won-Yeol and
+  Vuran, Mehmet C and Mohanty, Shantidev",
+  journal="Communications Magazine, IEEE",
+  volume="46",
+  number="4",
+  pages="40--48",
+  year="2008",
+  publisher="IEEE"
+}
+\end{lstlisting}
+\pause
+\begin{itemize}
+    \item \href{http://scholar.google.com}{Google Scholar} is your Go-To-Guy.
+\end{itemize}
+\end{frame}
+\begin{frame}[fragile]
+\frametitle{Working with BibTeX}
+\framesubtitle{in .tex file}
+\begin{lstlisting}
+\bibliographystyle{plain}
+\bibliography{example}
+\end{lstlisting}
+\end{frame}
+\begin{frame}
+\frametitle{Working with BibTeX}
+\framesubtitle{commands to generate proper citations}
+{\tt
+\begin{itemize}
+    \item pdflatex latexFile.tex
+    \item bibtex latexFile.aux
+    \item pdflatex latexFile.tex
+    \item pdflatex latexFile.tex
+\end{itemize}
+}
+-file extensions are optional
+\end{frame}
+\end{document}
+Chat Conversation End

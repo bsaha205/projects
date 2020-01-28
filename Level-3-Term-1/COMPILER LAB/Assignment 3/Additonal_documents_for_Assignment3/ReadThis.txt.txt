@@ -1,0 +1,14 @@
+1. Two new sample files have been uploaded which are sample outputs corresponding to the given input file. 
+These are "sample_file_output.txt" and "sample_console_output.png".
+
+2. The following change is NOT compulsory at all.
+
+Change the following line(line 17) of "your_student_id.y" 
+from 
+fprintf(stdout,"At Line %d, ERROR-> %s\n",10+1,s);
+to 
+fprintf(stdout,"ERROR-> %s\n",s);
+
+3. The deadline has been extended from "11:55pm, Nov 14, 2015" to "2:00pm, Nov 15, 2015".
+
+Best of luck (Y)

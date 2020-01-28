@@ -1,0 +1,184 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\renewcommand{\arraystretch}{1.3} % extending the space between rows, default 1.0
+
+\title{Table Example}
+\author{Tanvir Ahmed Khan}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+%
+This \href{http://en.wikibooks.org/wiki/LaTeX/Tables}{article} on \LaTeX\ tables from wikibooks community is the most comprehensive guide we have seen so far on how to construct tables in \LaTeX. Another good introductory article can be found \href{https://www.sharelatex.com/learn/Tables}{here}. However, they all taught you how to construct tables in \LaTeX, what they are lacking is how to present nice tables for technical publication and visual presentation. This \href{http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf}{document} shows some overview of that.
+
+We will see some rudimentary table examples in this article. Most of them are taken from this \href{http://dragonbook.stanford.edu/}{book}, some of them are taken from the sources listed above. Feel free to explore them for further reading.
+
+\section{Simple Tables}
+%
+Let us start with a simple table example. Table~\ref{table:sddcalculator} illustrates a basic example of \LaTeX\ table.
+\begin{table}[!h] % table environment to add caption and label, [position_specifier=h (here), t (top of the page), b (bottom of the page), p (dedicated page), !(override default float restrictions)]
+\begin{center} % centering the table and caption
+\begin{tabular}{lll} % table declaration, number of columns using {table spec}, l (left-justified column), c (centered), r (right-justified), | (vertical line between columns)
+\toprule % top horizontal line with extra width requires booktabs package
+ & PRODUCTION & SEMANTIC RULES\\ % use & to separate columns and use \\ to end row
+\hline % horizontal line after the header row
+1) & $L \rightarrow E \textbf{n}$ & $L.val=E.val$\\
+2) & $E \rightarrow E_{1}\ +\ T$ & $E.val=E_{1}.val+T.val$\\
+3) & $E \rightarrow T$ & $E.val=T.val$\\
+4) & $T \rightarrow T_{1}\ *\ F$ & $T.val=T_{1}.val\times F.val$\\
+5) & $T \rightarrow F$ & $T.val=F.val$\\
+6) & $F \rightarrow (E)$ & $F.val=E.val$\\
+7) & $F \rightarrow \textbf{digit}$ & $F.val=\textbf{digit}$.lexval\\
+\bottomrule
+\end{tabular}
+\caption{Syntax-directed definition of a simple desk calculator}
+\label{table:sddcalculator}
+\end{center}
+\end{table}
+
+
+Now let us look at another table example where we have to wrap texts in table cells. \LaTeX\ does not do that automatically.
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{cc}
+PRODUCTION & SEMANTIC RULES\\
+$A \rightarrow B$ & \shortstack{$A.s=B.i;$\\$B.i=A.s+1$}\\
+\end{tabular}
+\end{center}
+\end{table}
+
+
+{
+\def\arraystretch{1.3}
+%\large
+\begin{center}
+\begin{tabular}{l>{\centering\arraybackslash}p{0.08\textwidth}>{\centering\arraybackslash}p{0.08\textwidth}>{\centering\arraybackslash}p{0.08\textwidth}>{\centering\arraybackslash}p{0.15\textwidth}}
+\toprule
+\textbf{Instructions \textrightarrow} & \textbf{FP} & \textbf{INT} & \textbf{L/S} & \textbf{BRANCH}\\
+\midrule
+\textbf{Instruction Count ($\bf\times 10^6$)}& 50 & 110 & 80 & 16\\
+\textbf{CPI}& 1 & 1 & 4 & 2\\
+\bottomrule
+\end{tabular}
+\end{center}
+}
+
+
+\begin{center}
+\begin{tabular}{|p{0.6\textwidth}|p{0.4\textwidth}|}
+\hline
+\multirow{3}{*}{Execution time after improvement} & =  \\
+ & = \\
+& =  {128} ($ms$)\\
+\hline
+\multirow{2}{*}{Execution time{ without FP}} & = \\
+ & = {231}  ($ms$)\\
+\hline
+\end{tabular}
+\end{center}
+
+
+
+\newcommand{\zero}{\textcolor{red}{0}}
+\newcommand{\one}{\textcolor{blue}{1}}
+{
+\scriptsize
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Control Signal} & \zero & \one\\
+\hline
+RegDst & Write register address = rt & Write register address = rd \\
+\hline
+RegWrite & - & Write register \\
+\hline
+AluSrc & ALU Second Operand = Read data 2 & ALU Second Operand = lower 16-bit of instruction \\
+\hline
+PCSrc & PC=PC+4 & PC=branch target\\
+\hline
+MemRead & - & Read data from memory\\
+\hline
+MemWrite & - & Write data into memory\\
+\hline
+MemtoReg & Register Write Data from ALU & Register Write Data from data memory\\
+\hline
+\end{tabular}
+\end{center}
+}
+
+{
+\scriptsize
+\begin{center}
+\begin{tabular}{|>{\bfseries}c|c|c|}
+\hline
+%\textbf
+{Control Signal} & \zero & \one\\
+\hline
+RegDst & Write register address = rt & Write register address = rd \\
+\hline
+RegWrite & - & Write register \\
+\hline
+AluSrc & ALU Second Operand = Read data 2 & ALU Second Operand = lower 16-bit of instruction \\
+\hline
+PCSrc & PC=PC+4 & PC=branch target\\
+\hline
+MemRead & \multicolumn{1}{c}{-} & \multicolumn{1}{c}{Read data from memory}\\
+\hline
+MemWrite & - & Write data into memory\\
+\hline
+MemtoReg & Register Write Data from ALU & Register Write Data from data memory\\
+\hline
+\end{tabular}
+\end{center}
+}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\multicolumn{4}{|c|}{ALU Control} & \multirow{2}{*}{Operation}\\
+\cline{1-4}
+$S_{3}$ & $S_{2}$ & $S_{1}$ & $S_{0}$ & \\
+\hline 
+\zero & \zero & \zero & \zero & AND \\
+\hline 
+\zero & \zero & \zero & \one & OR \\
+\hline 
+\zero & \zero & \one & \zero & ADD \\
+\hline 
+\zero & \one & \one & \zero & SUBTRACT \\
+\hline 
+\zero & \one & \one & \one & SLT \\
+\hline
+\end{tabular}
+\end{center}
+
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+ & opcode & function \\
+\midrule
+lw & 35 & - \\
+sw & 43 & - \\
+beq & 4 & - \\
+add & 0 & 32 \\
+sub & 0 & 34 \\
+AND & 0 & 36 \\
+OR & 0 & 37 \\
+slt & 0 & 42 \\
+j & 2 & - \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{document}

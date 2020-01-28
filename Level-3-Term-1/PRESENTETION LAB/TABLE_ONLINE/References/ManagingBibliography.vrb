@@ -1,0 +1,6 @@
+\frametitle {Working with BibTeX}
+\framesubtitle{in .tex file}
+\begin{lstlisting}
+\bibliographystyle{plain}
+\bibliography{example}
+\end{lstlisting}

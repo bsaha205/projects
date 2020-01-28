@@ -1,0 +1,24 @@
+new=zeros(d,1);
+    for(j=1:y)
+        ind=ct(j,1);
+       if(tls(ind,d+1)==1)
+            dx=-1;
+        else
+            dx=1;            
+        end;
+        
+        for(j=1:d)
+            x(j,1)=tls(ind,j);
+        end;
+        
+        x=x*dx;
+        new=new+x;
+    end;
+    new=new*p;
+    w=w.';
+    w=w-new;
+    w;
+    w=w.';
+    
+
+

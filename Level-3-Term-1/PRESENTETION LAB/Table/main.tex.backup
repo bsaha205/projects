@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\renewcommand{\arraystretch}{1.3}
+
+\title{Table Example}
+\author{Tanvir Ahmed Khan}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+%
+This \href{http://en.wikibooks.org/wiki/LaTeX/Tables}{article} on \LaTeX\ tables from wikibooks community is the most comprehensive guide we have seen so far on how to construct tables in \LaTeX. Another good introductory article can be found \href{https://www.sharelatex.com/learn/Tables}{here}. However, they all taught you how to construct tables in \LaTeX, what they are lacking is how to present nice tables for technical publication and visual presentation. This \href{http://www.inf.ethz.ch/personal/markusp/teaching/guides/guide-tables.pdf}{document} shows some overview of that.
+
+We will see some rudimentary table examples in this article. Most of them are taken from this \href{http://dragonbook.stanford.edu/}{book}, some of them are taken from the sources listed above. Feel free to explore them for further reading.
+
+\section{Simple Tables}
+%
+Let us start with a simple table example. Table~\ref{table:sddcalculator} illustrates a basic example of \LaTeX\ table.
+\begin{table}[!h]% table environment to add caption and label, 
+\begin{center}% centering the table and caption
+\begin{tabular}{lll}
+\toprule
+ & PRODUCTION & SEMANTIC RULES \\
+\hline
+1) & $L \rightarrow E \textbf{n}$ & $L.val=E.val$\\
+2) & $E \rightarrow E_{1}\ +\ T$ & $E.val=E_{1}.val+T.val$\\
+3) & $E \rightarrow T$ & $E.val=T.val$\\
+4) & $T \rightarrow T_{1}\ *\ F$ & $T.val=T_{1}.val\times F.val$\\
+5) & $T \rightarrow F$ & $T.val=F.val$\\
+6) & $F \rightarrow (E)$ & $F.val=E.val$\\
+7) & $F \rightarrow \textbf{digit}$ & $F.val=\textbf{digit}$.lexval\\
+\bottomrule
+\end{tabular}
+\caption{Syntax-directed definition of a simple desk calculator}
+\label{table:sddcalculator}
+\end{center}
+\end{table}
+\end{document}

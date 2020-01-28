@@ -1,0 +1,456 @@
+\documentclass[]{report}
+\usepackage{relsize}
+\usepackage{listings}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{verbatim}
+%\lstset{language=Pascal}
+
+\iffalse
+\lstset{%
+  basicstyle=\small\ttfamily,
+  language=[LaTeX]{TeX},
+  backgroundcolor=\color{white},
+  numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt,
+    commentstyle=\color{red},
+    showstringspaces=false,
+    keywordstyle=\color{blue}\bfseries,
+    morekeywords={align,begin},
+    pos=l,
+}
+\fi
+
+\title{How to Write\\
+Research Papers in Computer Science}
+\author{Bishwajit Saha \\
+		Student ID: 1205043\\
+		Dept: CSE \\
+		Sec: A
+		}
+\date{\today}
+
+\begin{document}
+  \maketitle
+  \begin{abstract}
+  This report tells all the process for writing a nice and worthy thesis paper,research paper or report.For publishing research papers in a well-known scientifiq magazines,that research papers must be well written.And this report says exactly that by using latex environment.
+  \end{abstract}
+  \tableofcontents
+  
+  
+  \chapter{Research in Computer Science and Engineering}
+  \paragraph{Steps to follow:}
+  \begin{itemize}
+  \item Study and explore your area of interest.
+computer science and engineering;
+  \item Choose a research problem.
+  \item Find one or two co-researchers and form a research group.
+ \item Read related research papers published in good journals
+and conferences and present those papers in the group, by
+rotation.
+ \item Sit frequently for brainstorming on the problem and try to
+find non-trivial results.
+\item Find good results around the problem and write papers.
+  \end{itemize}
+  
+  
+  \chapter{Issues of Technical Writing}
+  
+  \section{Why do we need writing?}
+  \begin{enumerate}
+  \item To express our ideas.
+  \item Writing good mathematical explanations will improve your
+knowledge and understanding of the mathematical ideas you
+encounter.
+\item Putting an idea on paper requires careful thought and attention.
+Hence, mathematics which is written clearly and carefully is
+more likely to be correct.
+\item Specifically ....
+\begin{itemize}
+\item For publishing your research results as research papers.
+\item For publishing your study and research findings as theses
+or dissertation to fulfil your degree requirements.
+\item Writing a technical text books for students.
+\item Writing review reports.
+\item Technical study report.
+\item Etc.
+\end{itemize}
+  \end{enumerate}
+  
+  \section{Who is Your Audience?}
+   \begin{itemize}
+   \item Your Peers!!
+   \item Think someone to whom you could be explaining your ideas.
+   \item You should consider
+   \begin{itemize}
+   \item What questions might be asked.
+   \item What confusions might arise.
+   \item which details you might need to trot out and explain.
+   \end{itemize}
+  \end{itemize}
+  
+  
+  \section{Aspects of Technical Writing}
+  \subsection{}
+  \paragraph{As a valued customer of XYZ company, your call is very
+important to us.}
+\begin{center}
+\emph{{\large What is the wrong with this sentence?}}
+\end{center}
+\begin{verse}
+{\large Here:} "Your call" is a valued  customer.
+\end{verse}
+\begin{verse}
+{\large Good:} You are a valued customer of XYZ company, and your call is
+very important to us.
+\end{verse}
+\begin{center}
+\textbf{Or}
+\end{center}
+\begin{verse}
+{\large Good:} Because you are a valued customer of XYZ company, your call
+is important to us.
+\end{verse}
+\begin{center}
+\textbf {{\large Say What You Mean; \\
+	    Mean What You Say.} }
+\end{center}
+\subsection{}
+\paragraph{The conjecture of Gause (1930) is false.}
+\paragraph{The lemmas of Euler (1766) and the example of Abel (1827)
+led Gause to conjecture that all semistable curves are modular.
+The conjecture was widely beleived, and more than fifty papers
+were written by Jacobi, Dirichlet, and Galios in support of it. To
+everyones’s surprise and dismay, a counter example was
+produced by Frobenius in 1902. This counterexample opened
+many doors.}
+\paragraph{}
+\begin{center}
+\textbf{{\large Must make choice to convey most effectively a given message
+and the sprit of the message.}}
+\end{center}
+
+\subsection{}
+\paragraph{Let X be a compact metric subspace of the space Y. If f is
+continuous, R-valued function on the space then it assumes
+both a maximum and a minimum value.}
+\begin{center}
+\emph{{\large Here: X and Y are defined, but not used.}}
+\end{center}
+\begin{verse}
+{\large Good:} Let X be a compact metric space. If f is a continuous,
+real-valued function on X then f assumes both a maximum and
+a minimum value. 
+\end{verse}
+
+\begin{verse}
+{\large Better:} A continuous, real valued function on a compact metric
+space assumes both a maximum and a minimum value.
+\end{verse}
+\begin{center}
+\textbf{{\large Minimize the number of notations.}}
+\end{center}
+
+\subsection{}
+$\forall x \exists y,x \geq 0 \Rightarrow y^2=x$
+\begin{center}
+\emph{{\large difficult to read!}}
+\end{center}
+\begin{verse}
+{\large Better:} Every nonnegative real number has a squre root.
+\end{verse}
+\begin{center}
+\textbf{{\large Minimize the number of notations.}}
+\end{center}
+
+\subsection{}
+\paragraph{All continuous functions have a maximum.}
+\begin{center}
+\emph{{\large All continuous functions share the same maximum!!}}
+\end{center}
+\begin{verse}
+{\large Better:} Every continuous function has a maximum.
+\end{verse}
+\begin{verse}
+{\large More preciously:} Each continuous function has a maximum.
+\end{verse}
+\begin{center}
+\textbf{{\large Be precise, avoid ambiguity.}}
+\end{center}
+
+  \chapter{General Guidelines for Technical Writing}
+  \section{Rules and Practices of Writing}
+  \begin{description}
+  \item[**   ] Be careful about the language: Grammar, sentence
+formations, spellings, punctuation etc.
+\item[**   ] Each paragraph should represent a specific idea.
+\item[**  ] Smooth transition from
+\begin{itemize}
+\item One paragraph to the next
+\item One sentence to the next
+\end{itemize}
+\item[**  ] Write short and simple sentences.
+\item[**  ] The opening paragraph of a section should be the best
+paragraph of the section.
+\item[**  ] The opening sentence of a paragraph should be the best
+sentence of the paragraph.
+\item[**  ] Every statement should be precise and correct.
+  
+  \paragraph{}
+ \textbf {\large {Example}} 
+ \begin{verse}
+ "The problem stated above is difficult"
+ \end{verse}
+  \begin{itemize}
+  \item Difficult for whom?
+  \item NP-complete?
+  \item Believed by you?
+  \item Believed by others?
+  \item Proved by
+someone?
+  \end{itemize}
+  \item[**  ] Statement should be logical. Avoid sentence of the form
+"An x is y."
+\begin{verse}
+{\large Bad:} An important method for internal sorting is
+quicksort.
+\end{verse}
+\begin{verse}
+{\large Good:} Quicksort is an important method for internal
+sorting, because ...
+\end{verse}
+\item[**  ] Vary the sentence structure and the choice of words to
+avoid monotony. But use parallelism when parallel
+concepts are being discussed.
+\begin{verse}
+{\large Bad:} Formerly, science was taught by the textbook
+method, while now the laboratory method is
+employed.
+\end{verse}
+\begin{verse}
+{\large Good:} Formerly, science was taught by the textbook
+method; now it is taught by the laboratory
+method.
+\end{verse}
+
+\item[**  ] Do not omit "that" when it helps the reader to parse
+sentence
+\begin{verse}
+{\large Bad:} Assume G is a graph.
+\end{verse}
+\begin{verse}
+{\large Good:} Assume that G is a graph.
+\end{verse}
+  
+  \item[**  ] There is a definite rhythm in sentences. Read what you
+have written, and change the wording if it does not flow
+smoothly.
+\paragraph{}
+\textbf{\large Active or Passive:}
+In computer science writing active voice is
+preferred.
+\begin{verse}
+{\large Bad:} The following result can now be
+proved.
+\end{verse}
+\begin{verse}
+{\large Good:}We can now prove the following
+theorem.
+\end{verse}
+\begin{center}
+\textbf{{\large I or We Always use "we" even you are a single author.}}
+\end{center}
+\end{description}
+
+\section{Important Points for Mathematical Writing}
+\subsection{Separating symbols in formulas:}
+\begin{verse}
+{\large Bad:} Consider \begin{math}
+{S_q}
+\end{math} , $q < p.$
+\end{verse}
+\begin{verse}
+{\large Good:} Consider \begin{math}
+{S_q}
+\end{math} ,where $q < p.$
+\end{verse}
+
+\subsection{Not starting sentence with a symbol:}
+\begin{verse}
+{\large Bad:} G has n vertices.
+\end{verse}
+\begin{verse}
+{\large Good:} The graph G has n vertices.
+\end{verse}
+
+\subsection{Not using symbols $ \forall, \exists ,\in : $}
+\begin{verse}
+replace them by corresponding
+words.
+\end{verse}
+\subsection{Defining symbols before use: }
+\begin{verse}
+{\large Bad:} Algorithm XYZ finds a drawing of G in
+O(n + m) time, where n and m are the
+numbers of vertices and edges, respectively.
+\end{verse}
+\begin{verse}
+{\large Good:} Let G be a graph of n vertices and m edges.
+Then Algorithm XYZ finds a drawing of G in
+O(n + m) time.
+\end{verse}
+
+\subsection{Not using quotations in mathematics papers frequently:}
+\begin{verse}
+{\large Bad:} As Methuselah used to say, " When the going
+gets tough, the tough get going".
+\end{verse}
+\begin{verse}
+{\large Good:} As Methuselah used to say, " When the going
+gets tough, the tough get going."
+\end{verse}
+
+\subsection{Placing punctuation marks rightly:}
+\begin{verse}
+Commas and periods should be placed inside quotation
+marks, and colons and semicolons outside quotation
+marks
+\end{verse}
+
+\subsection{Completing Sentence rightly:}
+\begin{verse}
+{\large Bad:} We now have the following
+\textbf{Theorem}. \emph {H(x)} is continuous.
+\end{verse}
+\begin{verse}
+{\large Good:} We can now prove the following result.
+\textbf {Theorem}. The function \emph {H(x)} defined in (5) is
+continuous.
+\end{verse}
+
+\subsection{Being self-contained: }
+\begin{verse}
+The statement of a theorem should usually be
+self-contained, not depending on the assumptions on the
+previous text.
+\end {verse}
+
+\subsection{Fact, Lemma, Theorem, Corollary:}
+\paragraph{}
+\textbf {Fact :}
+\begin{verse}
+A proposition which is obviously true. Usually
+does not need a proof.
+\end{verse}
+\paragraph{}
+\textbf {Lemma :}
+\begin{verse}
+A proposition which will be used to prove other
+propositions. A proof is needed.
+\end{verse}
+\paragraph{}
+\textbf {Theorem :}
+\begin{verse}
+A proposition which gives a main result of the
+paper. A proof is needed.
+\end{verse}
+\paragraph{}
+\textbf {Corollary :}
+\begin{verse}
+Immediate from a theorem or a lemma.
+\end{verse}
+
+\subsection{Capitalizing names of theorems,lemmas..:}
+\begin{verse}
+{\large Wrong:} By lemma 3, we have ...
+\end{verse}
+\begin{verse}
+{\large Correct:}By Lemma 3, we have ...
+\end{verse}
+\paragraph{}
+\begin{verse}
+{\large Wrong:} We now have the following Lemma.
+\end{verse}
+\begin{verse}
+{\large Correct:}We now have the following lemma.
+\end{verse}
+
+\paragraph{}
+\begin{verse}
+{\large Wrong:} A maximal matching is illustrated in figure 5(a).
+\end{verse}
+\begin{verse}
+{\large Correct:}A maximal matching is illustrated in Figure 5(a).
+\end{verse}
+
+\paragraph{}
+\begin{verse}
+{\large Wrong:} In section 3 we deal with orthogonal drawings of
+planar graphs.
+\end{verse}
+\begin{verse}
+{\large Correct:}In Section 3 we deal with orthogonal drawings of
+planar graphs.
+\end{verse}
+
+\subsection{Spelling numbers or not: }
+\begin{verse}
+{\large Wrong:} There are 5 vertices on the outer face.
+\end{verse}
+\begin{verse}
+{\large Correct:}There are five vertices on the outer face.
+\end{verse}
+\paragraph{}
+\begin{verse}
+{\large Wrong:} The count was increased by two.
+\end{verse}
+\begin{verse}
+{\large Correct:}The count was increased by 2.
+\end{verse}
+\paragraph{}
+\begin{verse}
+{\large Wrong:} The graph has eighty embeddings.
+\end{verse}
+\begin{verse}
+{\large Correct:}The graph has 80 embeddings.
+\end{verse}
+
+\subsection{Displaying important formulas:}
+\begin{verse}
+Display important formulas on a line by themselves. If you
+need to refer to some of these formulas from remote parts
+of the text, give reference numbers to all of the most
+important ones, even if they are not referenced.
+\end{verse}
+\section{Some more points...}
+\begin{itemize}
+\item Do not overuse commas.
+\begin{verse}
+{\large Bad:}I went to the store, to buy some potatoes.
+\end{verse}
+\begin{verse}
+{\large Bad:}In this paper, we give a linear-time algorithm.
+\end{verse}
+\item Do not use contraction in formal writing. \textbf{Bad:} don't, I'm ...
+\end{itemize}
+
+\chapter{Acknowledgement}
+\begin{itemize}
+\item \textbf{Sources:}
+\begin{itemize}
+\item D. E. Knuth, T. Larrabee and P. M. Robers, Mathematical
+Writing, MAA Notes, 14, The Mathematical Association of
+America, 1989.
+\item S. G. Krantz, A primer of Mathematical Writing, American
+Mathematical Society, 1997.
+\item R. Andonie and I. Dzitac, How to write a good paper in
+computer science and how will it be measured by ISI web of
+knowledge, Int. J. of Computers, Communications and
+Control, 4, pp. 432-446, 2010.
+\item U. Khedker, How to Write a Good Paper? Indian Institute of
+Technology, Bombay (slides).
+\item https://cs.uwaterloo.ca/ brecht/thesis-hints.html, accessed
+on August 29, 2013.
+\end{itemize}
+\end{itemize}
+\end{document}

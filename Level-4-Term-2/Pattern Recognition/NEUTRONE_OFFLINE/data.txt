@@ -1,0 +1,4 @@
+1.2        1.4        tiger
+3.4        5.5        lion
+-.02       0.4        cheetah
+1.2        .4         lion

@@ -1,0 +1,12 @@
+a: int;
+b: real;
+
+
+proc abc;
+	x: int;
+	y: real;
+start
+	x = y;
+	a = b;
+end;
+

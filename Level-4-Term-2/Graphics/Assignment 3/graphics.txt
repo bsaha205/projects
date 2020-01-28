@@ -1,0 +1,50 @@
+class Traingle{
+	get_max_y(){
+		y=max(p1.y,p2.y,p3.y)
+		y = min(y,y_top_limit)   # clipping
+	}
+	get_min_y{
+		same vabe min y er min val nbo
+	}
+	get_X_intersection(y){
+		y er val er jonno corresponding x er lowest ar higeest val nbo val nbo 2d te traingle sapekkhe
+		so Y=y ei parallal line traingle er jkno dui bahu ke intersect korbe
+		oi dui intersecting point er x ret korbo, clipping kore
+		dhori x1 ar x2 pailam jekhane x1<x2
+		left intersecting point = max(x1,x_left_limit)
+		right intersecting point = min(x2,x_right_limit)
+		
+	}
+	get_z_val(x,y){
+		x,y dewa ase oi traingle er z val nbo
+		so agei p1,p2,p3 point dye plane er eqn ber kore rakhlei howar kotha
+		or interpolaration diyeu naki kora jay, oivabe kori nai
+	}
+}
+
+apply_procedure(){
+	dx,dy,top_y,left_x egula ager step e thik vabe ber koire nite hbe
+	for each traingle{
+		top_scan_line = (traingle.get_max_y - top_y)/dy    # int banite hbe, so floor nbo eitar
+		bottom_scan_line = (traingle.get_min_y{-top_y)/dy
+		
+		for i = top_scan_line to bottom_scan_line{
+			left_scan_line = (traingle.get_X_intersection.left - left_x)/dx
+			right_scan_line = (traingle.get_X_intersection.right - left_x)/dx
+			
+			for j = left_scan_line to right_scan_line{
+				(x,y) = (i,j) tomo cell er midpoint # hisab korbo
+				z = traingle.get_z_val(x,y)
+				if ( z_front<=z<=z_rear){
+					if z< z_buf[i][j]{
+						update z_buf[i][j]=z
+						update pixel info
+					}
+				}
+			}
+		}
+	
+	}
+
+
+}

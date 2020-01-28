@@ -1,0 +1,61 @@
+START
+Found include part
+ #include<stdio.h> 
+Found the preli include part
+ #include<stdio.h>
+#include<math.h> 
+expr->expr relop id found
+ id2
+expr->expr relop id found
+ id3
+a Full expression found
+ id1 = id2+ id3;
+expr->expr relop id found
+ id2
+expr->expr relop id found
+ x1
+expr->expr relop num found
+ 4.000000
+a Full expression found
+ x1=x1+4;
+expr->expr relop id found
+ x1
+expr->expr relop num found
+ 4.000000
+a Full expression found
+ x1=x1-4;
+If_else expression found
+ id3;
+if(id1=id2)
+	x1=x1+4;
+else
+	x1=x1-4; 
+Found the expression_if part
+ id1 = id2+ id3;
+if(id1=id2)
+	x1=x1+4;
+else
+	x1=x1-4;
+} 
+Found the main function part
+ void main()
+{
+id1 = id2+ id3;
+if(id1=id2)
+	x1=x1+4;
+else
+	x1=x1-4;
+} 
+Found all
+ #include<stdio.h>
+#include<math.h>
+void main()
+{
+id1 = id2+ id3;
+if(id1=id2)
+	x1=x1+4;
+else
+	x1=x1-4;
+} 
+END
+
